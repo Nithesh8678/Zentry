@@ -48,7 +48,7 @@ function Hero() {
           ease: "power1.inOut",
           onStart: () => nextVideoRef.current.play(),
         });
-        gsap.from("#currentVideo", {
+        gsap.from("#current-video", {
           transformOrigin: "center center",
           scale: 0,
           duration: 1.5,
